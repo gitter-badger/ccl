@@ -1,7 +1,7 @@
 # libccl : A container library for C
 
 Jacob Navia created a [container library for C][0]. The library provides a framework for containers in C, and implements several common and some uncommon container types. 
-This repo is forked from Jacob Navia's report (which seems to be have no recent activity). 
+This repo is forked from Jacob Navia's report (which seems to be have no recent activity). There is extensive documentation provided to describe the [design of libccl][1] and it's usage.
 
 This branch contains a version of libccl built using cmake. The goal is to provide a set of unit-tests and a build system that is cross-platform capable of compiling libccl to multiple platforms. 
 A git submodule is used to provide some useful cmake modules. Currently only *nix variants and MacOSX is supported.
@@ -29,5 +29,5 @@ Note: build directory should be a sibling of where ccl is checked out. Eclipse d
 
 If you would like to provide support, please reach out to me. There are several next steps I have in mind, and would like to have a conversation.
 
-
+[0]: https://github.com/jacob-navia/ccl
 [1]: https://www.cs.virginia.edu/~lcc-win32/ccl/ccl.html
